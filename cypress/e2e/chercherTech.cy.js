@@ -57,14 +57,15 @@ describe("CherCher.Tech", () => {
   });
 
 
-  it.only("Clicks on a hidden item", () => {
-    cy.contains("a", "CherCher Tech").click({ force: true });
-    cy.go("back");
-    cy.contains("a", "Google").click({ force: true });
-    cy.go("back");
-    cy.get("div.dropdown-content a").eq(2).click({ force: true });
-    cy.go("back");
-  });
+
+  it.only('Clicks on a hidden item', () => {
+    cy.contains('a', 'CherCher Tech').click({ force: true });
+    cy.go('back');
+    cy.get('a[href="https://google.com"]').click({ force: true });
+    cy.go('back');
+    cy.get('a[href="https://bing.com"]').click({ force: true });
+    cy.go('back');
+})
 
   it("Double clicks on an element", () => {
     cy.get("#double-click").dblclick();
