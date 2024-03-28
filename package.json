@@ -10,7 +10,8 @@
   "description": "",
   "devDependencies": {
     "cypress": "^13.7.1",
-    "cypress-file-upload": "^5.0.8"
+    "cypress-file-upload": "^5.0.8",
+    "faker": "^6.6.6"
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
