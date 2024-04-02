@@ -1,0 +1,15 @@
+{
+    "products": {
+      "Blue Top": {
+        "price": "Rs. 500",
+        "quantity": "1",
+        "totalPrice": "Rs. 500"
+      },
+      "Men Tshirt": {
+        "price": "Rs. 400",
+        "quantity": "1",
+        "totalPrice": "Rs. 400"
+      }
+    }
+  }
+  
