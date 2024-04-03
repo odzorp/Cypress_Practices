@@ -11,9 +11,10 @@ describe("Automation Exercise Test Suite", () => {
   let userData; // Declare userData variable
 
   before(() => {
+    
     // Load the fixture data before running the tests
     cy.fixture("user.json").then((userDataFixture) => {
-      userData = data; // Assign fixture data to userData
+      userData = data; 
     });
   });
     
