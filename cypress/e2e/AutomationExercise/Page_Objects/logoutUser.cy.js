@@ -1,4 +1,4 @@
-import AutomationExercisePage from '../../../support/AE_PageObject/PageObject.cj';
+import AutomationExercisePage from '../../../support/AE_PageObject/PageObject.cy.js';
 
 const page = new AutomationExercisePage();
 
